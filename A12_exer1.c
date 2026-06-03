@@ -32,13 +32,13 @@ int main() {
     
     printf("------------------------------------------------\n");
 
-    lado1 = sqrtf(powf(x[1] - x[0], 2) + powf(y[1] - y[0], 2));
-    lado2 = sqrtf(powf(x[2] - x[1], 2) + powf(y[2] - y[1], 2));
-    lado3 = sqrtf(powf(x[3] - x[2], 2) + powf(y[3] - y[2], 2));
-    lado4 = sqrtf(powf(x[0] - x[3], 2) + powf(y[0] - y[3], 2));
+    lado1 = sqrtf(pow(x[1] - x[0], 2) + pow(y[1] - y[0], 2));
+    lado2 = sqrtf(pow(x[2] - x[1], 2) + pow(y[2] - y[1], 2));
+    lado3 = sqrtf(pow(x[3] - x[2], 2) + pow(y[3] - y[2], 2));
+    lado4 = sqrtf(pow(x[0] - x[3], 2) + pow(y[0] - y[3], 2));
 
-    diagonal1 = sqrtf(powf(x[2] - x[0], 2) + powf(y[2] - y[0], 2));
-    diagonal2 = sqrtf(powf(x[3] - x[1], 2) + powf(y[3] - y[1], 2));
+    diagonal1 = sqrtf(pow(x[2] - x[0], 2) + pow(y[2] - y[0], 2));
+    diagonal2 = sqrtf(pow(x[3] - x[1], 2) + pow(y[3] - y[1], 2));
 
    
     printf("O comprimento do Lado 1: %.4f\n", lado1);
